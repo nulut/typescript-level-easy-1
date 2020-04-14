@@ -1,0 +1,15 @@
+{
+  "name": "typescript-level-easy-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nulut/typescript-level-easy-1.git",
+  "author": "emiling <scopradical@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node ./dist"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "typescript": "^3.8.3"
+  }
+}
