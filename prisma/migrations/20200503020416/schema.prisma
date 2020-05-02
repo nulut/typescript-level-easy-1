@@ -1,0 +1,19 @@
+datasource mysql {
+  url = "***"
+  provider = "mysql"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Book {
+  id          Int      @default(autoincrement()) @id
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @map("updated_at") @updatedAt
+  title       String
+  author      String
+  description String?
+
+  @@map("books")
+}
