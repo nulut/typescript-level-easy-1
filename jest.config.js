@@ -60,7 +60,7 @@ module.exports = {
   globals: {
     'ts-jest': {
       diagnostics: {
-        pathRegex: /\.(spec)\.ts$/,
+        pathRegex: /\.(test)\.ts$/,
         warnOnly: true,
       },
     },
@@ -147,7 +147,7 @@ module.exports = {
   testPathIgnorePatterns: ['/node_modules/'],
 
   // The regexp pattern or array of patterns that Jest uses to detect test files
-  testRegex: [/\.(spec)\.ts$/],
+  testRegex: [/\.(test)\.ts$/],
 
   // This option allows the use of a custom results processor
   // testResultsProcessor: null,

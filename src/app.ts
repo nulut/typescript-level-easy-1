@@ -1,4 +1,5 @@
 import express from 'express';
+import 'reflect-metadata';
 import { useExpressServer } from 'routing-controllers';
 
 const app = express();

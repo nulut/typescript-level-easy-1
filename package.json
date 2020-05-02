@@ -5,6 +5,12 @@
   "repository": "https://github.com/nulut/typescript-level-easy-1.git",
   "author": "emiling <scopradical@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "serve": "yarn build && node dist",
+    "dev": "nodemon",
+    "test": "jest"
+  },
   "nodemonConfig": {
     "watch": [
       "src/*"
